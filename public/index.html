@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Chat APP</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="centered-form">
+        <div class="centered-form__box">
+            <h1>Conectar-se</h1>
+            <form action="/chat.html">
+                <label>Nome de Usuário</label>
+                <input type="text" name="username" placeholder="Ex: Pedro" oninvalid="this.setCustomValidity('Preencha todos os campos por favor')" onchange="this.setCustomValidity('')" required>
+                <label>Sala</label>
+                <input type="text" name="room" placeholder="Sala" oninvalid="this.setCustomValidity('Preencha todos os campos por favor')" onchange="this.setCustomValidity('')" required>
+                <button>Conectar</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
